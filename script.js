@@ -10,14 +10,14 @@ const pipeBottom = new Image();
 const fly = new Audio();
 let score_sound = new Audio();
 
-bird.src = "images/bird.png";
-bg.src = "images/bg.png";
-fg.src = "images/fg.png";
-pipeUp.src = "images/pipeUp.png";
-pipeBottom.src = "images/pipeBottom.png";
+bird.src = "src/images/bird.png";
+bg.src = "src/images/bg.png";
+fg.src = "src/images/fg.png";
+pipeUp.src = "src/images/pipeUp.png";
+pipeBottom.src = "src/images/pipeBottom.png";
 
-fly.src = "sounds/fly.mp3";
-score_sound.src = "sounds/score.mp3";
+fly.src = "src/sounds/fly.mp3";
+score_sound.src = "src/sounds/score.mp3";
 
 //gap between blocks
 const gap = 90;
